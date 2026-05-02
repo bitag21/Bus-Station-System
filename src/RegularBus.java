@@ -1,9 +1,9 @@
 public class RegularBus extends Bus{
     int stops;
 
-    public RegularBus(String busNumber, String driverNmae, String route, int stpos){
-        super(busNumber,driverNmae,route);
-        this.stops=stpos;
+    public RegularBus(String busNumber, String driverName, String route, int stops){
+        super(busNumber,driverName,route);
+        this.stops=stops;
     }
     @Override
     public void displayInfo(){
