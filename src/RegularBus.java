@@ -8,8 +8,8 @@ public class RegularBus extends Bus{
     @Override
     public void displayInfo(){
         super.displayInfo();
-        System.out.println("stops:"+stops);
-        System.out.println("Type: Regular Bus");
+        System.out.println("Stops : "+stops);
+        System.out.println("Type : Regular Bus");
     }
 
 }

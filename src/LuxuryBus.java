@@ -9,7 +9,10 @@ public class LuxuryBus extends Bus{
     @Override
     public void displayInfo() {
         super.displayInfo();
-        System.out.println("Air Condition:"+(hasAc?"Yes":"No"));
-        System.out.println("Type:Luxury Bus");
+        System.out.println("AC : "+(hasAc?"Yes":"No"));
+        System.out.println("Type : Luxury Bus");
+    }
+    public static void type(){
+        System.out.println("Luxury Bus");
     }
 }
