@@ -1,5 +1,5 @@
 public class VIPLuxuryBus extends LuxuryBus{
-    boolean hasWifi;
+    private boolean hasWifi;
 
     public VIPLuxuryBus(String busNumber,String driverName,String route, boolean hasAc,boolean hasWifi){
         super(busNumber, driverName,route, hasAc);
@@ -7,8 +7,12 @@ public class VIPLuxuryBus extends LuxuryBus{
     }
     @Override
     public void displayInfo(){
-        super.displayInfo();
-        System.out.println("Wifi : "+(hasWifi?"Available":"No"));
+        System.out.println("BUS INFORMATION");
+        System.out.println("~~~~~~~~~~~~~~~");
+        System.out.println("Bus Number: " + getBusNumber());
+        System.out.println("Driver: " + getDriverName());
+        System.out.println("Route: " + getRoute());
+        System.out.println("Wifi : " + (hasWifi? "Available": "No"));
         System.out.println("Type : VIP Luxury Bus");
     }
 }

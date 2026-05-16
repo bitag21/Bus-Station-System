@@ -5,7 +5,11 @@ final class MiniBus extends Bus {
 
     @Override
     public void displayInfo(){
-        super.displayInfo();
-        System.out.println("Type: Mini BUs");
+        System.out.println("BUS INFORMATION");
+        System.out.println("~~~~~~~~~~~~~~~");
+        System.out.println("Bus Number: " + getBusNumber());
+        System.out.println("Driver: " + getDriverName());
+        System.out.println("Route: " + getRoute());
+        System.out.println("Type: Mini Bus");
     }
 }

@@ -1,5 +1,5 @@
 public class RegularBus extends Bus{
-    int stops;
+    private int stops;
 
     public RegularBus(String busNumber, String driverName, String route, int stops){
         super(busNumber,driverName,route);
@@ -7,8 +7,12 @@ public class RegularBus extends Bus{
     }
     @Override
     public void displayInfo(){
-        super.displayInfo();
-        System.out.println("Stops : "+stops);
+        System.out.println("BUS INFORMATION");
+        System.out.println("~~~~~~~~~~~~~~~");
+        System.out.println("Bus Number: " + getBusNumber());
+        System.out.println("Driver: "+ getDriverName());
+        System.out.println("Route: " + getRoute());
+        System.out.println("Stops : " + stops);
         System.out.println("Type : Regular Bus");
     }
 

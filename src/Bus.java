@@ -1,21 +1,27 @@
-public class Bus {
-    protected String busNumber;
-    protected String driverName;
-    protected String route;
+public abstract class Bus {
+    private String busNumber;
+    private String driverName;
+    private String route;
 
-    public Bus(String busNumber, String driverName, String route) {
+    Bus(String busNumber, String driverName, String route) {
         this.busNumber = busNumber;
         this.driverName = driverName;
         this.route = route;
     }
 
-    public void displayInfo() {
-        System.out.println("        BUS INFORMATION");
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-        System.out.println("Bus Number : " + busNumber);
-        System.out.println("Driver : " + driverName);
-        System.out.println("Route : " + route);
+    public String getBusNumber(){
+        return busNumber;
     }
+
+    public String getDriverName() {
+        return driverName;
+    }
+
+    public String getRoute() {
+        return route;
+    }
+
+    public abstract void displayInfo();
 
     public final void showCompany() {
         System.out.println("Company : City Bus Service");
