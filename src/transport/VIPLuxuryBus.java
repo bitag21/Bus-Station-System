@@ -1,4 +1,6 @@
-public class VIPLuxuryBus extends LuxuryBus{
+package transport;
+
+public class VIPLuxuryBus extends LuxuryBus {
     private boolean hasWifi;
 
     public VIPLuxuryBus(String busNumber,String driverName,String route, boolean hasAc,boolean hasWifi){

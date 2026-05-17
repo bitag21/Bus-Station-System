@@ -1,6 +1,6 @@
-# Bus Management System
+# transport.Bus Management System
 
-A Java-based Bus Management System developed using Object-Oriented Programming (OOP) concepts.
+A Java-based transport.Bus Management System developed using Object-Oriented Programming (OOP) concepts.
 
 ## Concepts Used
 - Classes and Objects
@@ -11,6 +11,7 @@ A Java-based Bus Management System developed using Object-Oriented Programming (
 - Method Overriding
 - Polymorphism
 - Abstraction
+- Packages
 - Access Modifiers
 - ArrayList
 - Scanner
@@ -18,11 +19,11 @@ A Java-based Bus Management System developed using Object-Oriented Programming (
 - Static Methods
 - Final Methods
 
-## Bus Types
-- Regular Bus
-- Luxury Bus
-- VIP Luxury Bus
-- Mini Bus
+## transport.Bus Types
+- Regular transport.Bus
+- Luxury transport.Bus
+- VIP Luxury transport.Bus
+- Mini transport.Bus
 
 ## Tools Used
 - Java

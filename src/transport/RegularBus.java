@@ -1,4 +1,6 @@
-public class RegularBus extends Bus{
+package transport;
+
+public class RegularBus extends Bus {
     private int stops;
 
     public RegularBus(String busNumber, String driverName, String route, int stops){

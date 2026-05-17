@@ -1,4 +1,6 @@
-final class MiniBus extends Bus {
+package transport;
+
+public final class MiniBus extends Bus {
     public MiniBus(String busNumber,String driverName, String route){
         super(busNumber, driverName, route);
     }

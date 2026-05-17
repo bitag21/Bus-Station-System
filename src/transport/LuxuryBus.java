@@ -1,4 +1,6 @@
-public class LuxuryBus extends Bus{
+package transport;
+
+public class LuxuryBus extends Bus {
     private boolean hasAc;
 
     public LuxuryBus(String busNumber, String driverName, String route, boolean hasAc){

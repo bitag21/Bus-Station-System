@@ -1,9 +1,11 @@
+package transport;
+
 public abstract class Bus {
     private String busNumber;
     private String driverName;
     private String route;
 
-    Bus(String busNumber, String driverName, String route) {
+    public Bus(String busNumber, String driverName, String route) {
         this.busNumber = busNumber;
         this.driverName = driverName;
         this.route = route;
